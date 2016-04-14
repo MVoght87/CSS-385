@@ -17,3 +17,6 @@ C:\Users\Michael Voght\Documents\CSS 385\MP1\MichaelVoght_mp1\bin\WindowsGL\Debu
 C:\Users\Michael Voght\Documents\CSS 385\MP1\MichaelVoght_mp1\bin\WindowsGL\Debug\Tao.Sdl.dll
 C:\Users\Michael Voght\Documents\CSS 385\MP1\MichaelVoght_mp1\obj\x86\Debug\FunMP1.exe
 C:\Users\Michael Voght\Documents\CSS 385\MP1\MichaelVoght_mp1\obj\x86\Debug\FunMP1.pdb
+C:\Users\Michael Voght\Documents\CSS-385\Programming\MP1\MichaelVoght_mp1\bin\WindowsGL\Debug\FunMP1.exe.config
+C:\Users\Michael Voght\Documents\CSS-385\Programming\MP1\MichaelVoght_mp1\obj\x86\Debug\FunMP1.exe
+C:\Users\Michael Voght\Documents\CSS-385\Programming\MP1\MichaelVoght_mp1\obj\x86\Debug\FunMP1.pdb

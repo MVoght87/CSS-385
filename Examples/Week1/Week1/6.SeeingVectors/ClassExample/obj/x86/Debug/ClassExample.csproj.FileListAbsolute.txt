@@ -1,0 +1,8 @@
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\bin\WindowsGL\Debug\ClassExample.exe.config
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\bin\WindowsGL\Debug\Content\Resources\Fonts\Arial.xnb
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\bin\WindowsGL\Debug\ClassExample.exe
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\bin\WindowsGL\Debug\ClassExample.pdb
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\obj\x86\Debug\ClassExample.csprojResolveAssemblyReference.cache
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\obj\x86\Debug\ClassExample.exe
+C:\Users\Michael Voght\Downloads\Week1\Week1\6.SeeingVectors\ClassExample\obj\x86\Debug\ClassExample.pdb

@@ -1,0 +1,15 @@
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\FunMP1.exe.config
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\Content\Resources\Audio\powerup.wav
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\Content\Resources\Textures\HouseFront.jpg
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\Content\Resources\Fonts\Arial.xnb
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\FunMP1.exe
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\FunMP1.pdb
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\GTCS1Lib.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\obj\x86\Debug\MichaelVoght_mp1.csprojResolveAssemblyReference.cache
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\obj\x86\Debug\FunMP1.exe
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\obj\x86\Debug\FunMP1.pdb
+C:\Users\Michael Voght\Downloads\Week1\Week1\1.EmptyTemplate\ClassExample\bin\WindowsGL\Debug\Content\Resources\Textures\SoccerBall.png

@@ -28,6 +28,11 @@ namespace MichaelVoght_NameSpace
     /// </summary>
     public class TheSting : XNACS1Base
     {
+        private Hero myHero;
+        private Bee myBee;
+        private WallSet myWalls;
+
+        private float mWorldLength = 100f;
 
         public TheSting()
         {
@@ -35,13 +40,25 @@ namespace MichaelVoght_NameSpace
 
         protected override void InitializeWorld()
         {
-
+            World.SetWorldCoordinate(new Vector2(0f, 0f), mWorldLength);
+            myHero = new Hero();
+            myBee = new Bee();
+            myWalls = new WallSet(7, myBee);
+            myWalls.AddToSet(new Vector2(mWorldLength / 6, World.WorldDimension.Y * RandomFloat(0.35f, 0.65f)), true);
+            myWalls.AddToSet(new Vector2(2 * mWorldLength / 6, World.WorldDimension.Y * RandomFloat(0.35f, 0.65f)), true);
+            myWalls.AddToSet(new Vector2(3 * mWorldLength / 6, World.WorldDimension.Y * RandomFloat(0.35f, 0.65f)), true);
+            myWalls.AddToSet(new Vector2(4 * mWorldLength / 6, World.WorldDimension.Y * RandomFloat(0.35f, 0.65f)), true);
+            myWalls.AddToSet(new Vector2(5 * mWorldLength / 6, World.WorldDimension.Y * RandomFloat(0.35f, 0.65f)), true);
+            myWalls.AddToSet(new Vector2(mWorldLength / 2, 3 * World.WorldDimension.Y / 4), false);
+            myWalls.AddToSet(new Vector2(mWorldLength / 2, World.WorldDimension.Y / 4), false);
         }
 
 
         protected override void UpdateWorld()
         {
-
+            myHero.Update();
+            myBee.Update(myHero);
+            myWalls.Update(myHero);
         }
 
     }

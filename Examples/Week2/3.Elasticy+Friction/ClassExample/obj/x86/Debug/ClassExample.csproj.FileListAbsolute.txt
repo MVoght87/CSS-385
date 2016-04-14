@@ -1,0 +1,13 @@
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\ClassExample.exe.config
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\Content\Resources\Textures\SoccerBall.png
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\SDL.dll
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\Content\Resources\Fonts\Arial.xnb
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\ClassExample.exe
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\ClassExample.pdb
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\GTCS1Lib.dll
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\obj\x86\Debug\ClassExample.csprojResolveAssemblyReference.cache
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\obj\x86\Debug\ClassExample.exe
+C:\Users\Michael Voght\Documents\CSS-385\Examples\Week2\3.Elasticy+Friction\ClassExample\obj\x86\Debug\ClassExample.pdb

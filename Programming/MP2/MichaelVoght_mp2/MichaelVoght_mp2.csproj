@@ -39,10 +39,15 @@
     <ApplicationIcon>ForPC.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Bee.cs" />
+    <Compile Include="Chaser.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="SmartWall.cs" />
     <Compile Include="TheSting.cs" />
     <Compile Include="MichaelVoght.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Wall.cs" />
+    <Compile Include="WallSet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="GTCS1Lib">
