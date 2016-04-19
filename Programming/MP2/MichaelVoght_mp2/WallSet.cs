@@ -1,4 +1,21 @@
-﻿using System;
+﻿/*
+ * Author:              Michael Voght
+ * Date:                April 14th, 2016
+ * Content Mentions:    - Bug: http://opengameart.org/content/parts-2-art-spider
+ *                      - Smart Walls: http://opengameart.org/content/32-x-32-bricks
+ *                      - Background: http://opengameart.org/content/country-side-platform-tiles
+ *                      - Wall: http://opengameart.org/content/wall-0
+ *                      - Chaser: http://opengameart.org/content/ufo-enemy-game-character
+ *                      - Hero: http://opengameart.org/content/sorcerer
+ *                      - Reformat Kevin MacLeod (incompetech.com)
+ *                        Licensed under Creative Commons: By Attribution 3.0 License
+ *                        http://creativecommons.org/licenses/by/3.0/
+ * WallSet.cs:          Contains all instance of walls so they are easier to handle, draw, and update.
+ *                      No implementation or removing walls from the set as the game doesn't remove
+ *                      them.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;

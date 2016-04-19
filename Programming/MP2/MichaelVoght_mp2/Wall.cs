@@ -1,4 +1,20 @@
-﻿using System;
+﻿/*
+ * Author:              Michael Voght
+ * Date:                April 14th, 2016
+ * Content Mentions:    - Bug: http://opengameart.org/content/parts-2-art-spider
+ *                      - Smart Walls: http://opengameart.org/content/32-x-32-bricks
+ *                      - Background: http://opengameart.org/content/country-side-platform-tiles
+ *                      - Wall: http://opengameart.org/content/wall-0
+ *                      - Chaser: http://opengameart.org/content/ufo-enemy-game-character
+ *                      - Hero: http://opengameart.org/content/sorcerer
+ *                      - Reformat Kevin MacLeod (incompetech.com)
+ *                        Licensed under Creative Commons: By Attribution 3.0 License
+ *                        http://creativecommons.org/licenses/by/3.0/
+ * Wall.cs:             Base class for the Smart Walls. Just a generic wall with no mechanic other
+ *                      than the playing not being able to pass through it.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
@@ -28,7 +44,7 @@ namespace MichaelVoght_NameSpace
             SizeX = mWallLength;
             SizeY = mWallWidth;
             Center = pos;
-            Color = Color.Red;
+            Texture = "00";
         }
 
         virtual public void Update(Hero hero, Bee bee)
