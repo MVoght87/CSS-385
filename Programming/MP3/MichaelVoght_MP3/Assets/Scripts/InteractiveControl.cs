@@ -15,7 +15,7 @@ public class InteractiveControl : MonoBehaviour {
 	#endregion
 	// Use this for initialization
 	void Start () {
-		// initialize projectile spawning
+        // initialize projectile spawning
 		if (null == mProjectile)
 			mProjectile = Resources.Load ("Prefabs/Egg") as GameObject;
         mLastFire = Time.time + kFireDelta;

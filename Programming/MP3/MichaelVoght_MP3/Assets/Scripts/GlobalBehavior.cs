@@ -32,12 +32,13 @@ public class GlobalBehavior : MonoBehaviour {
 		#region initialize enemy spawning
 		if (null == mEnemyToSpawn) 
 			mEnemyToSpawn = Resources.Load("Prefabs/EnemyPlane") as GameObject;
+        InitEnemySpawn();
 		#endregion
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		SpawnAnEnemy();	
+//		SpawnAnEnemy();	
 	}
 	
 	#region Game Window World size bound support
@@ -111,4 +112,17 @@ public class GlobalBehavior : MonoBehaviour {
 		}
 	}
 	#endregion
+
+    private void InitEnemySpawn()
+    {
+        float randX, randY;
+ //       for( int i = 0; i < 50; i++ )
+ //       {
+            randX = Random.Range(mWorldMin.x, mWorldMax.x);
+            randY = Random.Range(mWorldMin.x, mWorldMax.y);
+
+            GameObject e = (GameObject)Instantiate(mEnemyToSpawn);
+            e.transform.position = new Vector3(randX, randY, 0f);
+ //       }
+    }
 }
