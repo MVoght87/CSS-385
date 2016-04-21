@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GlobalBehavior : MonoBehaviour {
 	
@@ -9,6 +10,9 @@ public class GlobalBehavior : MonoBehaviour {
 	private Vector2 mWorldMax;
 	private Vector2 mWorldCenter;
 	private Camera mMainCamera;
+	private bool mEnemyMovement;
+	private GameObject echoText;
+	UnityEngine.UI.Text gui;
 	#endregion
 
 	#region  support runtime enemy creation
@@ -27,6 +31,9 @@ public class GlobalBehavior : MonoBehaviour {
 		mMainCamera = Camera.main;
 		mWorldBound = new Bounds(Vector3.zero, Vector3.one);
 		UpdateWorldWindowBound();
+		mEnemyMovement = true;
+		echoText = GameObject.Find("echoText");
+		gui = echoText.GetComponent<UnityEngine.UI.Text> ();
 		#endregion
 
 		#region initialize enemy spawning
@@ -38,7 +45,11 @@ public class GlobalBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-//		SpawnAnEnemy();	
+		gui.text = "Enemies: " + GameObject.FindGameObjectsWithTag("Enemy").Length.ToString() + "\tEggs: " + GameObject.FindGameObjectsWithTag("Egg").Length.ToString();
+		if (Input.GetKeyDown ("space"))
+			mEnemyMovement = !mEnemyMovement;
+		if(mEnemyMovement)
+			SpawnAnEnemy();
 	}
 	
 	#region Game Window World size bound support
@@ -116,13 +127,18 @@ public class GlobalBehavior : MonoBehaviour {
     private void InitEnemySpawn()
     {
         float randX, randY;
- //       for( int i = 0; i < 50; i++ )
- //       {
+        for( int i = 0; i < 50; i++ )
+        {
             randX = Random.Range(mWorldMin.x, mWorldMax.x);
             randY = Random.Range(mWorldMin.x, mWorldMax.y);
 
             GameObject e = (GameObject)Instantiate(mEnemyToSpawn);
             e.transform.position = new Vector3(randX, randY, 0f);
- //       }
+        }
     }
+
+	public bool getEnemyMovement()
+	{
+		return mEnemyMovement;
+	}
 }

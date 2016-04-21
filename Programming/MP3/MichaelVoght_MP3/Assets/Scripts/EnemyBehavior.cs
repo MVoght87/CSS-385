@@ -12,7 +12,6 @@ public class EnemyBehavior : MonoBehaviour {
 
     private GlobalBehavior mGlobalBehavior;
     private EnemyState mCurrentState;
-    private bool mEnemyMovement;
     private SpriteRenderer mSprite;
     private int mStunCount = 0;
     private int kMaxStunCount = 2;
@@ -35,7 +34,6 @@ public class EnemyBehavior : MonoBehaviour {
         mSprite = GetComponent<SpriteRenderer>();
         mGlobalBehavior = GameObject.Find("GameManager").GetComponent<GlobalBehavior>();
         mCurrentState = EnemyState.Normal;
-        mEnemyMovement = true;
         mSpeed = Random.Range(20f, 40f);
         NewDirection();
     }
@@ -58,7 +56,7 @@ public class EnemyBehavior : MonoBehaviour {
 
     private void UpdateNormalState()
     {
-        if(mEnemyMovement)
+        if(mGlobalBehavior.getEnemyMovement())
         {
             transform.position += (mSpeed * Time.smoothDeltaTime) * transform.up;
 
@@ -131,7 +129,6 @@ public class EnemyBehavior : MonoBehaviour {
         float angle = Vector3.Angle(targetDir, forward);
         if(angle < 10f)
         {
-            Debug.Log("looking at");
             return true;
         }
 
