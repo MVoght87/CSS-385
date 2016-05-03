@@ -1,3 +1,20 @@
+/* 
+ *  Author:         Michael Voght
+ *  Date:           4/21/16
+ *  Citations:      Code - Kelvin Sung
+ *                  Background - http://eriq.deviantart.com/art/Water-Texture-49283686
+ *                  Starfighter -
+ *                  EnemyShip -
+ *                  Egg -
+ *  EnemyBehavior:  Controls the EnemyShips and handles the logic of them. Can toggle
+ *                  their movement on/off with the space bar (handled by GlobalBehavior).
+ *                  They patrol if in normal state, run away from the Starfighter if
+ *                  within 30 units, and if hit with an egg they are destroyed if hit 
+ *                  for the third time or stunned for 5 secs.
+ *  Assumptions:    Toggle Movement only effects the normal patrol, it does not effect
+ *                  the EnemyShip if in the run state.
+ */
+
 using UnityEngine;
 using System.Collections;
 

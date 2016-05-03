@@ -1,3 +1,14 @@
+/* 
+ *  Author:         Michael Voght
+ *  Date:           4/21/16
+ *  Citations:      Code - Kelvin Sung
+ *                  Background - http://eriq.deviantart.com/art/Water-Texture-49283686
+ *                  Starfighter -
+ *                  EnemyShip -
+ *                  Egg -
+ *  GlobalBehavior: Handles the bounds and updates of the world.
+ */
+
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
@@ -48,8 +59,6 @@ public class GlobalBehavior : MonoBehaviour {
 		gui.text = "Enemies: " + GameObject.FindGameObjectsWithTag("Enemy").Length.ToString() + "\tEggs: " + GameObject.FindGameObjectsWithTag("Egg").Length.ToString();
 		if (Input.GetKeyDown ("space"))
 			mEnemyMovement = !mEnemyMovement;
-		if(mEnemyMovement)
-			SpawnAnEnemy();
 	}
 	
 	#region Game Window World size bound support

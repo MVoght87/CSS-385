@@ -1,3 +1,15 @@
+/* 
+ *  Author:         Michael Voght
+ *  Date:           4/21/16
+ *  Citations:      Code - Kelvin Sung
+ *                  Background - http://eriq.deviantart.com/art/Water-Texture-49283686
+ *                  Starfighter -
+ *                  EnemyShip -
+ *                  Egg -
+ *  EggBehavior:    Fires in the direction the Starfighter is facing. If it leaves the
+ *                  bounds of the world it is destroyed.
+ */
+
 using UnityEngine;
 using System.Collections;
 

@@ -1,3 +1,16 @@
+/* 
+ *  Author:             Michael Voght
+ *  Date:               4/21/16
+ *  Citations:          Code - Kelvin Sung
+ *                      Background - http://eriq.deviantart.com/art/Water-Texture-49283686
+ *                      Starfighter -
+ *                      EnemyShip -
+ *                      Egg -
+ *  InteractiveControl: Controls the Starfighter. Has a projectile attached to it that
+ *                      fires Eggs at a 0.1 sec RoF. Uses Gamemanager to keep itself in
+ *                      world bounds
+ */
+
 using UnityEngine;	
 using System.Collections;
 
