@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\EnemyBehavior.cs" />
      <Compile Include="Assets\Scripts\GlobalBehavior.cs" />
      <Compile Include="Assets\Scripts\InteractiveControl.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

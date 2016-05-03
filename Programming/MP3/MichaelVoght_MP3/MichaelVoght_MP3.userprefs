@@ -1,15 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EggBehavior.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Level.cs">
     <Files>
-      <File FileName="Assets\Scripts\EggBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GlobalBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\InteractiveControl.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Level.cs" Line="1078" Column="16" />
+      <File FileName="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Enemies\EnemyGrid.cs" Line="834" Column="17" />
+      <File FileName="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Enemies\EnemyFactory.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Slayer\MonsterHeadImageHolder.cs" Line="6" Column="1" />
+      <File FileName="..\..\..\..\..\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\VIP\VIPCounter.cs" Line="50" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Michael\Documents\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\VIP\VIPCounter.cs" line="52" />
+      <Breakpoint file="C:\Users\Michael\Documents\CSS 497\Ghostlight\UnityAssetsiOs2\Assets\Scripts\Level.cs" line="1052" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

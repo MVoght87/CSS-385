@@ -1,14 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Programming\MP3\MichaelVoght_MP3\Assets\Scripts\GlobalBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\test.cs">
     <Files>
-      <File FileName="..\..\..\Programming\MP3\MichaelVoght_MP3\Assets\Scripts\GlobalBehavior.cs" Line="47" Column="1" />
+      <File FileName="Assets\Scripts\test.cs" Line="18" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="C:\Users\Michael\Documents\CSS 385\CSS-385\Programming\MP3\MichaelVoght_MP3\Assets\Scripts\GlobalBehavior.cs" line="47" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
